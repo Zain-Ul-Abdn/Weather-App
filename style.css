@@ -117,11 +117,6 @@ header h2 {
     display: inline-block;
 }
 
-.temp b {
-    font-size: 40px;
-
-}
-
 .weather-card>div img {
     width: 70px;
     height: 70px;
