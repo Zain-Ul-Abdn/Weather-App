@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>My Weather App</h2>
+            <div id="search-div">
+                <input type="text" id="search-box" placeholder="Search City Weather">
+                <i id="search-icon" class=" fas fa-soid fa-magnifying-glass"></i>
+
+            </div>
+        </header>
+
+        <section class="weather">
+            <div class="location">
+                <h2 id="city">Weather In Islamabad</h2>
+                <p id="date">Current Date Time</p>
+            </div>
+
+            <div class="weather-card">
+                <div><img src="/weatherCloud.png" alt=""></div>
+                <span class="temp">32&deg;C</span>
+
+                <div class="weather-details">
+                    <span class="feel-temp"><i class="fa-solid fa-temperature-low"></i>22&deg;C</span>
+                    <span class="wind"><i class="fas fa-thin fa-wind"></i>10km/h</span>
+                    <span class="humidity"><i class="fa-solid fa-droplet drop"></i>72%</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+
+<script src="script.js"></script>

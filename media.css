@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    header {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #search-div {
+        transform: translateY(20px);
+    }
+}
+
+@media (max-width:576px) {
+    header h2 {
+        font-size: 30px;
+    }
+
+    .weather-card{
+        box-shadow: none;
+    }
+
+}

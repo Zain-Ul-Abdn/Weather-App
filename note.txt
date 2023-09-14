@@ -1,0 +1,12 @@
+/*
+ ###################################################
+*/
+
+Note that:
+If weather App is not working you need to include your API key in script.js file 
+You can get you API Key free from there:
+https://rapidapi.com/apininjas/api/weather-by-api-ninjas/
+
+Its free!! Just subscribe the free bundle and get your API key.
+
+Enjoy my weather App and feel free to make this better!
